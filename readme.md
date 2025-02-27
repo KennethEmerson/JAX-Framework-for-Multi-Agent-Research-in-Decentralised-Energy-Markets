@@ -72,7 +72,7 @@ Besides the above mentioned subfolders, the main *code/src* folder also contains
 
 To enhance the runtime performance of the framework, the source code is constructed around the utilisation of the [JAX: High-Performance Array Computing](https://jax.readthedocs.io/en/latest/index.html) library. Within this architecture, the main function and training loop serve as pure Python orchestrators, coordinating the invocation of various JAX Just-In-Time (JIT) compatible functions to execute the complete training cycle.
 
-For a more extensive introduction regarding the context, objective and implementation, please consult the accompanying thesis document, added to this repository.
+For a more extensive introduction regarding the context, objective and implementation, please consult the accompanying [thesis document](JAX_framework_for_mutli-agent_research_in_decentralised_energy_markets.pdf), added to this repository.
 
 ## How To Use The Framework:
 
